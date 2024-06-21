@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'USA24';
+    src: url('./Fonts/NerkoOne-Regular.ttf') format('truetype');
+}
+  
+  @font-face {
+    font-family: 'Menus';
+    src: url(./Fonts/New\ June\ SemiBold.otf) format('opentype');
+}
+  
+@font-face {
+    font-family: 'Conmebol';
+    src: url(./Fonts/DIN\ 1451\ Std\ Engschrift.otf) format('opentype');
+  }
+  
+  @font-face{
+    font-family:'Textos';
+    src: url(./Fonts/New\ June\ Regular.otf) format('opentype');
+  }
+  
+body {
+    background-color: #023581;
+    background-image: url(./Images/Fondo07.png);
+    background-size:cover;
+    background-repeat: repeat;
+  }
+  
+.nav-link{
+    font-family:'Menus';
+    font-size: 18px;
+}
+
+.vr {
+    border-left: 1px  solid white;
+    height: 75px;
+}
+
+.Consulta h1 {
+    font-family: 'USA24';
+    font-size: 75px;
+    text-align: center;
+}
+
+.Consulta form {
+    font-family: 'Textos';
+    font-size: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
+.Footer {
+    font-family: 'Menus';
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    padding: 1px;
+}
+    
+.Banderitas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 11px;
+}
+  
+.Banderitas img {
+    width: 50px;
+    height: auto;
+}

@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'USA24';
+  src: url('./Fonts/NerkoOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Menus';
+  src: url(./Fonts/New\ June\ SemiBold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Conmebol';
+  src: url(./Fonts/DIN\ 1451\ Std\ Engschrift.otf) format('opentype');
+}
+
+@font-face{
+  font-family:'Textos';
+  src: url(./Fonts/New\ June\ Regular.otf) format('opentype');
+}
+
+.nav-link{
+  font-family:'Menus';
+  font-size: 18px;
+}
+
+#Fixture, #Sedes, #Pelota {
+  scroll-margin-top: 75px;
+}
+
+body {
+  background-color: #023581;
+  background-image: url(./Images/Fondo07.png);
+  background-size:cover;
+  background-repeat: repeat;
+}
+
+.carousel {
+  margin-top: 70px;
+}
+
+.carousel-item img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.vr {
+  border-left: 1px  solid white;
+  height: 75px;
+}
+
+.Grupos {
+  text-align: center;
+  background-color: #00144b;
+  background-image: url(Images/Fondo06.png);
+  background-repeat: repeat;
+  background-size: 50%;    
+}
+
+.Grupos_ABCD {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.custom-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.texto-pelota p{
+  font-family: 'Textos';
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+}
+
+.Footer {
+  background-image: url(./Images/fondo-azul-copa-america-2024.jpg);
+  background-size:cover;
+  background-repeat: repeat;
+  font-family: 'Menus';
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  padding: 1px;
+}
+
+.Banderitas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 11px;
+}
+
+.Banderitas img {
+  width: 50px;
+  height: auto;
+}
